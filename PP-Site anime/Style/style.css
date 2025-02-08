@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: black;
+}
+
+p{
+    font-size: 40px;
+    color:rgb(212, 212, 212);
+    font-family: 'Rubik Vinyl' ;
+}
+
+p#login{
+    width: 100px; 
+    height:40px;
+    color:white;
+    font-size: 25px;
+    border-width: 20px;
+    border: solid 5px;
+    font-family: monospace;
+}
+
+img{
+    height: 800px;
+    width: 860px;
+}
+
+#forum{
+    
+    font-family: cursive;
+    text-align: center;
+    color:white;
+    background-color: red ;
+}
