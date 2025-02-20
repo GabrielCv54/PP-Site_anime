@@ -9,3 +9,5 @@ var confirme = document.getElementsByClassName('password')
     }else{
         alert('Erro! as senhas devem ser iguais')
     }
+Boolean
+  
