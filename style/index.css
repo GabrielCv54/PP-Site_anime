@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Vinyl&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    font-size: 40px;
+    color:rgb(212, 212, 212);
+    font-family: 'Rubik Vinyl' ;
+}
+
+button{
+    width: 90px; 
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a#login{ 
+    background-color:rgb(230, 227, 227);
+    font-size: 20px;
+    padding: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+img{
+    height: 800px;
+    width: 860px;
+}
+
+#forum{
+    
+    font-family: cursive;
+    text-align: center;
+    color:white;
+    background-color: rgb(185, 174, 174) ;
+}
+
+ul.about{
+    list-style-image: url('/imgs/icons8-adn-anime-16.png')
+}
+
+a#home{
+    font-family:monospace ;
+    background-color: rgb(231, 229, 229);
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    font-size: 20px;
+}
