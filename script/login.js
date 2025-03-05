@@ -13,7 +13,8 @@ function validate(){
      if(!user_name || !password){
       alert('O campo deve ser preenchido')
      }else if((user_name)){
-          alert("Login feito com Sucesso")    
+          alert("Login feito com Sucesso")
+          location.href = '/view/home.html'    
      }else{
           alert('O email ou senha não são válidos')
      }

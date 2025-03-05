@@ -17,11 +17,12 @@ form{
     width: 600px;
 }
 
-button{
+a{
     text-decoration: none;
     background-color: rgb(185, 177, 177);
     color: black;
    padding: 20px;
+   outline: black 5px inset;
 }
 
 input#user{
