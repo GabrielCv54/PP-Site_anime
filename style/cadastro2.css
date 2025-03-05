@@ -1,7 +1,9 @@
 body{
-    background-image: url('/imgs/gojo.png');
+    background-image: url('/imgs/gojo_background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: fixed;
+    
+    
 }
 
 form{
@@ -15,7 +17,7 @@ form{
     width: 600px;
 }
 
-a{
+button{
     text-decoration: none;
     background-color: rgb(185, 177, 177);
     color: black;

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Login de Usuário</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='../style/login.css'>
     <link rel="icon" type="image/png" href="/imgs/icons8-amino-16.png">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/eye?f=classic&s=solid">
    
+    
 </head>
 <body>
     <img src="/imgs/gif_naruto.gif" alt="naruto" id="naruto">
@@ -15,8 +18,14 @@
             <label for="user">Login:</label><br>
             <input type="text" id="login" name="login" placeholder="Nome de usuário" ><br>
             <label for="senha">Senha: </label><br>
-            <input type="password" id="password" placeholder="Senha" ><br>
-            <input type="submit" value="Entrar" id="submit" onclick="login()">
+            
+            <input type="password" id="password" placeholder="Senha" >  <br>
+        
+            <i class="fa-solid fa-eye"></i>
+            <br>
+            <button type="submit" value="Entrar" id="submit" onclick="validate()">
+            <br>Entrar</button><br>
+            Esqueceu a Senha?<a href="/view/recovery.html" id="recovery">Recuperar</a>
             <br>
             Não possui conta?<a href="/view/cadastro.html" >Criar</a><br>
 

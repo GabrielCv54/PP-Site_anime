@@ -1,9 +1,8 @@
-
 var user = document.getElementById('user').innerHTML;
-var password= document.getElementsByClassName('password')
-var confirme = document.getElementsByClassName('password')
+var password= document.getElementById('password').value
+var confirme = document.getElementById('confirme').value;
 
-    if(password.value == confirme.value){
+    if(password == confirme){
       alert('Usuário registrado com sucesso!')
      
     }else{

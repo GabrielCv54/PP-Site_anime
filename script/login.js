@@ -1,20 +1,27 @@
-//function login(){
-     const listage  = {};
-   
-     var user_name = document.getElementById('login').value;
-     var password = document.getElementById('password').value;
+function validate(){
 
-     listage.Usuário = user_name
-     listage.password =password
+     const user_name = document.getElementById('login').value;
+     const password = document.getElementById('password').value;
+     var submit = document.getElementById('submit').value;
+     var recovery = document.getElementById('recovery').value;
+
+     
+
 
      //var invite = document.getElementById('')
      
-     if(user_name.value.length == '' || password.value.length==''){
+     if(!user_name || !password){
       alert('O campo deve ser preenchido')
+     }else if((user_name)){
+          alert("Login feito com Sucesso")    
      }else{
-          alert('Sucesso')
-          console.log(listage)
+          alert('O email ou senha não são válidos')
      }
 
  
-//}
+}
+
+
+
+ 
+
