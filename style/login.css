@@ -9,7 +9,7 @@ body{
 }
 
 form{
-    background-color: rgb(255, 79, 10);
+    background-color: rgb(10, 67, 255);
     font-family: 'Noto Sans Mono';
     font-size: 20px;
     text-align: center;
@@ -24,6 +24,7 @@ input{
     border-radius: 15px;
     width: 300px;
     height: 25px;
+    box-shadow: 1px 3px 1px black;
 }
 
 button#submit{
@@ -55,10 +56,3 @@ img#konoha{
     background-position: bottom;
 } 
 
-.fa-solid fa-eye{
-    position: relative ;
-    bottom: -6px;
-    right: 35px;
-    cursor: pointer;
-
-}

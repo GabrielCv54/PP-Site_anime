@@ -11,6 +11,8 @@
 </html>      
 
 <body>
+    <a href="/view/index.html"><img src="/imgs/better_anime.jpg" alt="better_animes_logo" id="logo"></a>
+
     <form action="/https://animesonlinecc.to/episodio/" method="post" target="_blank" autocomplete="on">
         <p>Cadastro</p>
         <label for="fName">Primeiro Nome: </label><br>
@@ -20,23 +22,19 @@
 
         <label for="Email">Email: </label><br>
         <input type="email" name="email" id="email" placeholder="Digite seu Email aqui" required style="width: 300px;height: 30px;"><br><br>
-        <label for="Nasc">Data de Nascimento: </label><br>
+        <label for="Nasc" >Data de Nascimento: </label><br>
         <input type="date" id="nasc" name="nasc"><br>
 
-        <label for="Nation">Nacionalidade</label><br>
-        <input type="text" id="nation" name="nation"><br><br>
+        <label for="Nation">Nacionalidade(Opcional)</label><br>
+        <input type="text" id="nation" name="nation"><br>
+       <br>
 
-        <h2>Escolha um desses animes abaixo: </h2>
-
-        <input type="radio" id="anime1" name="one_p" value='One Piece'>
-        <img src="/imgs/One_Piece_vol._01.jpg" alt="OnePiece" style="height: 80px; width: 80px;">
-        <input type="radio" id="anime2" name="naruto" value="Naruto">
-        <img src="/imgs/Naruto_vol._01.jpg" alt="naruto" style="height: 80px; width: 80px;">
-        <input type="radio" name="dbz" id="dbz" value="DBZ">
-        <img src="/imgs/dragon-ball-z.jpg" alt="DragonBallz" style="height: 95px; width: 85px;"><br><br>
-
-        <a href="../view/cadastro2.html"><button> Continuar cadastro</button></a>
+      <a href='../view/cadastro2.html' id="next"> Continuar cadastro</a>
     </form> 
+    <div id="animes">
+        <img src="/imgs/animes-japao-shonen-jump.jpeg" alt="animes" id="anime">
+    </div>
+  
     <script src='../script/cadastro.js'></script>
 </body>
 </html>

@@ -4,11 +4,21 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Recuperação de Senha</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/style/recovery.css'>
+    <link rel="shortcut icon" href="/imgs/icons8-amino-16.png" type="image/x-icon">
+    <script src='main.js' defer></script>
 </head>
 <body>
-    
+    <div class="container">
+     <h2>Recuperação de Senha</h2>
+     <p>Insira a senha para saber qual a força dela : </p>
+     <input type="password" name="password" id="password" placeholder="Digite a senha">
+     <div class="password">
+        <div id="password-strength-indicator" class="strength-indicator"></div>
+     </div>
+     <p id="password"></p>
+     <p id="dicas">A senha precisa ter : Letras maiusculas e minúsculas</p>
+    </div>
 </body>
 </html>

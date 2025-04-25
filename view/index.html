@@ -7,14 +7,18 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='/Style/index.css'>
   <link rel="shortcut icon" href="/imgs/icons8-amino-16.png" type="image/x-icon">
-    <script src='main.js'></script>
+  <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> ----O Framework w3.css pra eu estudar um pouco mais depois-->
+    <script src='../script/main.js' defer></script>
 </head>
 <body>
    <form>
-       
-       <a target="_blank" href="login.html" id="login">Login</a>
-       <a href="home.html" id="home">Home</a>
-       <a href="more.html" id="more"></a><br>
+       <a href="/view/index.html"><img src="/imgs/better_anime.jpg" alt="better_animes_logo" id="logo"></a><br><br><br>
+       <nav id="botoes">
+        <a target="_self" href="cadastro.html" id="sign">Cadastro</a>
+           <a target="_blank" href="login.html" id="login">Login</a>
+           <a href="home.html" id="home">Home</a>
+           <a href="more.html" id="more"></a><br>
+       </nav><br>
        <p>Better animes, a Plataforma de animes mais completa e com opções diversas para sua diversão! </p>
         <img src="/imgs/animes.jpg" alt="Animes">
        <div id="forum">
@@ -26,8 +30,20 @@
                <li>Opções de 'Dublado ' e 'Legendado'</li>
            </ul>
        </div>
-       <div>
-        <iframe src="" frameborder="0"></iframe>
+       <div class="trailers">
+        <h2>Alguns trailers de lançamentos</h2>
+        <video controls>
+            <source src="/media/Demon Slayer_ Kimetsu no Yaiba Castelo Infinito _ Trailer _ Em breve nos cinemas.mp4" type="video/mp4" frameborder="1">
+        </video>
+        
+        <video  controls>
+            <source src="../media/My Hero Academia_ Missão Mundial de Heróis _ Trailer Oficial.mp4" frameborder="1"></source>
+        </video>
+
+        <video controls>
+           <source src="/media/Jujutsu Kaisen 0 _ Trailer oficial dublado _ 28 de abril exclusivamente nos cinemas.mp4" type="video/mp4" frameborder="1" >
+     
+        </video>
        </div>
    </form>
 </body>

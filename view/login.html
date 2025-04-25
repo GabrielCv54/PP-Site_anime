@@ -19,12 +19,13 @@
             <input type="text" id="login" name="login" placeholder="Nome de usuário" ><br>
             <label for="senha">Senha: </label><br>
             
-            <input type="password" id="password" placeholder="Senha" >  <br>
+            <input type="password" id="password" placeholder="Senha" > <i onclick="showPassword()" class="fa-solid fa-eye"></i> <br>
         
-            <i class="fa-solid fa-eye"></i>
             <br>
-            <button type="submit" value="Entrar" id="submit" onclick="validate()">
-            <br>Entrar</button><br>
+            <div class="password">
+                <button type="submit" value="Entrar" id="submit" onclick="validate()">
+                <br>Entrar</button>
+            </div><br>
             Esqueceu a Senha?<a href="/view/recovery.html" id="recovery">Recuperar</a>
             <br>
             Não possui conta?<a href="/view/cadastro.html" >Criar</a><br>
