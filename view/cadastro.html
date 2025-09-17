@@ -6,35 +6,38 @@
     <title>Formulários</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='/style/cadastro.css'>
-    <link rel="icon" type="image/png" href="/imgs/icons8-amino-16.png">
+    <link rel="icon" type="image/png" href="/imgs/Gemini_Generated_Image_nbek81nbek81nbek.jpeg">
+     <script src='/script/cadastro.js' defer></script>
+
 </head>
 </html>      
 
 <body>
-    <a href="/view/index.html"><img src="/imgs/better_anime.jpg" alt="better_animes_logo" id="logo"></a>
+    <a href="/view/index.html"><img src="/imgs/Gemini_Generated_Image_nbek81nbek81nbek.jpeg" alt="better_animes_logo" id="logo"></a>
 
-    <form action="/https://animesonlinecc.to/episodio/" method="post" target="_blank" autocomplete="on">
-        <p>Cadastro</p>
-        <label for="fName">Primeiro Nome: </label><br>
-        <input type="text" id="name" placeholder="Digite seu Primeiro Nome aqui!" style="width: 300px; height: 30px;" required><br><br>
-        <label for="lname">Último Nome: </label><br>
-         <input type="text" id="lname" placeholder="Digite seu Último nome aqui" style="width: 300px; height: 30px;" required><br><br>
+    <header>
+        <h1>Cadastre-se em nosso site!⚡️</h1>
+    </header>
 
-        <label for="Email">Email: </label><br>
-        <input type="email" name="email" id="email" placeholder="Digite seu Email aqui" required style="width: 300px;height: 30px;"><br><br>
-        <label for="Nasc" >Data de Nascimento: </label><br>
-        <input type="date" id="nasc" name="nasc"><br>
-
-        <label for="Nation">Nacionalidade(Opcional)</label><br>
-        <input type="text" id="nation" name="nation"><br>
-       <br>
-
-      <a href='../view/cadastro2.html' id="next"> Continuar cadastro</a>
-    </form> 
-    <div id="animes">
-        <img src="/imgs/animes-japao-shonen-jump.jpeg" alt="animes" id="anime">
-    </div>
+    <main>
+        <form>
+            <p>Cadastro</p>
+            <label for="fName">Primeiro Nome: </label><br>
+            <input type="text" id="name" placeholder="Digite seu Primeiro Nome aqui!" style="width: 300px; height: 30px;" required><br><br>
+            <label for="lname">Último Nome: </label><br>
+             <input type="text" id="lname" placeholder="Digite seu Último nome aqui" style="width: 300px; height: 30px;" required><br><br>
+            <label for="Email">Email: </label><br>
+            <input type="email" name="email" id="email" placeholder="Digite seu Email aqui" required style="width: 300px;height: 30px;"><br><br>
+            <label for="Nasc" >Data de Nascimento: </label><br>
+            <input type="date" id="nasc" name="nasc"><br>
+            <label for="Nation">Nacionalidade(Opcional)</label><br>
+            <input type="text" id="nation" name="nation"><br>
+           <br>
+          <button type="button" id="next" onclick="validateCadastro()">Continuar cadastro</button>
+        </form> <br><br><br><br><br><br><br><br><br><br><br>
+        
+            <img src="/imgs/animes-japao-shonen-jump.jpeg" alt="animes" id="animes">
+    </main>
   
-    <script src='../script/cadastro.js'></script>
 </body>
 </html>
